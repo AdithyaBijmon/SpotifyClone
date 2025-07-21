@@ -1,0 +1,65 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link2 {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
+
+.nav-link3 {
+    font-size: 13px;
+}
+
+.home-icon {
+    background-color: rgba(57, 57, 57, 0.634);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.search-icon {
+    background-color: rgba(57, 57, 57, 0.634);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 5px;
+}
+
+.search-bar {
+    width: 65vh;
+    background-color: rgba(57, 57, 57, 0.634);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 5px;
+
+}
+
+.search::placeholder {
+    color: rgb(171, 171, 171) !important;
+    /* This will now likely work */
+}
+
+.search {
+    border: none !important;
+
+    box-shadow: none !important;
+}
+
+
+.vline {
+    border-left: 2px solid white;
+    height: 30px;
+
+}
+
+#app {
+    display: none;
+}
+
+@media(max-width:700px) {
+    #app {
+        display: flex;
+        opacity: 1;
+    }
+}
