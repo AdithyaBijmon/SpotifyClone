@@ -36,67 +36,106 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-black ">
         <div class="container-fluid px-4 ">
-            <a class="navbar-brand text-white" href="#"><i class="fa-brands fa-spotify fs-2"
-                    style="color: #ffffff;"></i></a>
-                    <div id="app">
-                            <button class="btn btn-light rounded-5 px-4 py-2">Open in App</button>
+            <!-- Logo -->
+            <div class="d-flex align-items-center justify-content-center ">
+                <a class="navbar-brand text-white" href="#"><i class="fa-brands fa-spotify fs-2"
+                        style="color: #ffffff;"></i></a>
+                <a class="navbar-brand text-white fw-medium spotify" href="#">Spotify</a>
+
+            </div>
+            <div id="app">
+                <button class="btn btn-light rounded-5 px-2 py-1 fw-bold">Open App</button>
+            </div>
+            <!-- Toggle button -->
+            <div class="toggle-btn">
+                <a class="d-flex justify-content-center align-items-center text-decoration-none"
+                    data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars fs-3" style="color: #ffffff;"></i>
+                </a>
+
+
+                <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body px-5">
+                        <div>
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Log in</h5>
+                            <h5 class="offcanvas-title mt-4" id="offcanvasExampleLabel">Sign up</h5>
                         </div>
-            <button class="navbar-toggler" style="background-color: white;" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <div class="dash border-bottom text-white mt-5" style="width: 20px;;background-color: white;">
+                        </div>
+
+                        <ul class="list-group mt-5 fw-medium" style="list-style: none;">
+                            <li>Premium</li>
+                            <li class="my-3">Help</li>
+                            <li>Download</li>
+                            <li class="my-3">Privacy</li>
+                            <li>Terms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Home button-->
+            <div class="collapse navbar-collapse large-display" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item home-icon ms-3 ">
-                        <a class="nav-link  text-white " aria-current="page" href="#"><i class="fa-solid fa-house fs-5"
+                    <li class="nav-item home-icon ms-3 link">
+                        <a class="nav-link  text-white " href="#"><i class="fa-solid fa-house fs-5"
                                 style="color: #ffffff;"></i></a>
                     </li>
-                     <li class="nav-item ms-3  search-icon">
-                        <a class="nav-link  text-white " aria-current="page" href="#"><i class="fa-solid fa-house fs-5"
-                                style="color: #ffffff;"></i></a>
+                    <!-- Search Bar -->
+                    <li class="nav-item ms-2  search-icon ">
+                        <a class="nav-link  text-white " aria-current="page" href="#"><i
+                                class="fa-solid fa-magnifying-glass fs-5" style="color: rgb(182, 182, 182);"></i></a>
                     </li>
-                    <form class="d-flex search-bar" role="search">
-                        <input class="form-control  bg-transparent  search" type="text"
+
+                    <form class="d-flex search-bar " role="search">
+                        <input class="form-control  bg-transparent  search text-white" type="text"
                             placeholder="What do you want to play?" />
 
 
                     </form>
 
                 </ul>
+                <!-- Nav right side md-lg -->
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <div class=" d-flex align-items-center justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link2" href="#">Premium</a>
+                        <li class="nav-item link">
+                            <a class="nav-link2" href="#" title data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Orders">Premium</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item link">
                             <a class="nav-link2  ms-2" href="#">Support </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item link">
                             <a class="nav-link2 ms-2" href="#"> Download</a>
                         </li>
                     </div>
 
-                   <div class="d-flex align-items-center justify-content-center"> <div class="vline ms-4"></div></div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="vline ms-4"></div>
+                    </div>
                     <div class=" d-flex align-items-center justify-content-center">
 
-                        <li class="nav-item">
+                        <li class="nav-item link">
                             <a class="nav-link2 nav-link3 ms-4" href="#"><i
                                     class="fa-solid fa-circle-arrow-down me-2 ms-3" style="color: #c3c3c3;"></i>Install
                                 App</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item link">
                             <a class="nav-link2 nav-link3 ms-4 me-4" href="#"> Sign up</a>
                         </li>
 
 
 
-                        <div>
+                        <div class="link">
                             <button class="btn btn-light rounded-5 px-4 py-2 fw-bold">Log in</button>
                         </div>
 
-                        
+
                     </div>
 
 
@@ -106,6 +145,52 @@
             </div>
         </div>
     </nav>
+
+    <!-- Body content -->
+    <!-- Sidebar -->
+    <div class="container-fluid bg-black w-100 " style="height: 91vh;">
+        <div class="row">
+            <div class=" col-md-3 text-white sidebar mx-2" style="width: 420px;">
+                <div class="d-flex justify-content-between align-items-center px-2 py-3 ">
+                    <h6 class="fw-semibold">Your Library</h6>
+                    <i class="fa-solid fa-plus plus-icon" style="color: #d2d2d2;"></i>
+                </div>
+
+                <div class="sidebar-content mt-4 p-3" >
+
+                    <h6 class="fw-semibold ">Create your first playlist</h6>
+                    <p class="fw-semibold">It's easy,we'll help you</p>
+
+                    <button class="btn btn-light rounded-5 fw-bold">Create playlist</button>
+                </div>
+                 <div class="sidebar-content mt-4 p-3" >
+
+                    <h6 class="fw-semibold ">Let's find some podcast to follow</h6>
+                    <p class="fw-semibold ">We will keep you updated on new episodes</p>
+
+                    <button class="btn btn-light rounded-5 fw-bold">Browse podcasts</button>
+                </div>
+
+                <div class="footer-ul mt-5 ">
+                    <ul class="d-flex">
+                        <li>Legal</li>
+                        <li class="mx-3">Safety & Privacy Center</li>
+                        <li>Privacy Policy</li>
+                        <li class="mx-2">Cookies</li>
+                      </ul>
+                      <ul class="d-flex">
+                        <li>About Ads</li>
+                        <br>
+                        <li class="ms-3 ">Accessiblity</li>
+                    </ul> 
+                    <a href="" class="text-white ">Cookies</a>
+
+                </div>
+            </div>
+            <div class="col-md-9"></div>
+        </div>
+    </div>
 </body>
+
 
 </html>

@@ -2,12 +2,10 @@
     font-family: "Poppins", sans-serif;
 }
 
-.nav-link2 {
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(182, 182, 182);
-    font-size: 15px;
+.spotify {
+    display: none;
 }
+
 
 .nav-link3 {
     font-size: 13px;
@@ -17,6 +15,26 @@
     background-color: rgba(57, 57, 57, 0.634);
     border-radius: 30px;
     padding: 5px;
+    transition: transform .1s;
+}
+
+.nav-link2 {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+
+}
+
+
+.link:hover {
+    transform: scale(1.04);
+
+
+}
+
+.nav-link2:hover {
+    color: white;
 }
 
 .search-icon {
@@ -27,7 +45,7 @@
 }
 
 .search-bar {
-    width: 65vh;
+    width: 58vh;
     background-color: rgba(57, 57, 57, 0.634);
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -35,14 +53,14 @@
 
 }
 
+
 .search::placeholder {
     color: rgb(171, 171, 171) !important;
-    /* This will now likely work */
+
 }
 
 .search {
     border: none !important;
-
     box-shadow: none !important;
 }
 
@@ -57,9 +75,87 @@
     display: none;
 }
 
+.toggle-btn {
+    display: none;
+}
+
+.sidebar {
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    height: 80vh;
+}
+
+.plus-icon:hover {
+    background-color: rgba(57, 57, 57, 0.634);
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.sidebar-content{
+     background-color: rgb(37, 37, 37);
+     width: 100%;
+     height: 120px;
+     border-radius: 8px;
+}
+
+.sidebar-content h6{
+    font-size: 15px;
+}
+.sidebar-content p{
+    font-size: 13px;
+    color: rgb(226, 225, 225);
+}
+
+.sidebar-content .btn{
+    font-size: 13px;
+    
+    
+}
+
+.sidebar-content .btn:hover{
+    transform: scale(1.03);
+    
+}
+
+.footer-ul ul{
+ font-size: 10px;
+ list-style: none;
+ color:rgb(171, 171, 171) ; 
+
+}
+
+.footer-ul a{
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 33px;
+
+}
+
+.footer-ul a:hover{
+    text-decoration:underline;
+    
+}
+
 @media(max-width:700px) {
     #app {
         display: flex;
         opacity: 1;
+        margin-left: 50px;
+    }
+
+    .large-display {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .spotify {
+        display: inline;
+    }
+
+    .sidebar {
+        display: none;
     }
 }
