@@ -54,7 +54,7 @@
                 </a>
 
 
-                <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasExample"
+                <div class="offcanvas offcanvas-end bg-black text-light" tabindex="-1" id="offcanvasExample"
                     aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
 
@@ -199,75 +199,446 @@
 
             <!-- Right content  -->
             <div class="col-md-9 text-white right-content ms-2 px-md-4 py-4 " style="width: 152vh;">
+
+                <!-- Trending songs -->
                 <div class="heading d-flex justify-content-between">
                     <h5 class="fw-bold">Trending songs</h5>
                     <span class="fw-bold">Show all</span>
                 </div>
 
                 <div class="container-fluid mt-3 ">
-                    <div class="row scrollable-content ">
-                        <div class="col-md-1 ">
-                            <div class="card bg-transparent  text-light " style="width: 18rem;">
-                                <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8" class="card-img-top rounded-3 song-img" style="width: 175px;" alt="...">
-                                <div class="song-body mt-2" >
-                                    <h5 class="card-title" style="font-size: 15px;">Dhun(From "Saiyaara")</h5>
-                                    <p class="card-text" style="font-size: 13px;color: rgb(171, 171, 171);">Mithun,Arijith Singh</p>
+                    <div class="row flex-nowrap overflow-auto scrollable-content">
+                        <div class="col-md-4  d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                    <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+
+                                <h5 class="card-title mt-2">Dhun(from "Saiyaara")</h5>
+                                <p class="card-text fw-semibold">Mithun,Arijith Singh</p>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4  d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d00001e024e84dbc51038df1a3b143d90"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Jhol - Acoustic</h5>
+                                <p class="card-text fw-semibold">Maanu,Annural Khalid,Abdullah Siddiqui</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273bd7e1592d75a9ad8d211debd"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Sirra</h5>
+                                <p class="card-text fw-semibold">Guru Randhawa,Kiran Bajwa,Rony Ajnali</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2730a47bbe7141fdfe0eb2cdba7"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Sahiba</h5>
+                                <p class="card-text fw-semibold">Aditya Rikhari</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273f78ef2cf0e69e27c41bbe127"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Together</h5>
+                                <p class="card-text fw-semibold">Shubh</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d00001e02dfc5ea836092ec71ca7a5dcb"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Humsafar(from "Saiyaara")</h5>
+                                <p class="card-text fw-semibold">Sachet-Parampara,Sachet Tandon,Parampara...</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab67616d00001e025696d40d519368db56b767dd"
+                                            class="card-img-top rounded-3" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                             <img id="play-img" src="./images/play-button.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title mt-2">Monica(From "Coolie")(Tamil)</h5>
+                                <p class="card-text fw-semibold">Anirudh Ravichander,Sublahshini,Ashal Kolaar,...</p>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27359803e4a4a30dcf55464d882"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Bas Ek Dhadak- From "Dhadak 2"</h5>
+                                <p class="card-text fw-semibold">Shreya Ghoshal,Jubin Nautiyal,Javed-Moshin,...</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273148a06ae24e68c088d8d2954"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Barbaad(From "Saiyaara")</h5>
+                                <p class="card-text fw-semibold">The Rish,Jubin Nautiyal</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i1.sndcdn.com/artworks-44YcDMuHx3L8ZGxt-op9xcQ-t500x500.png"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">PAIGAAM</h5>
+                                <p class="card-text fw-semibold">Amrinder Gill,Armaan Gill,Arnaaz Gill</p>
+                               
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Popular artists -->
+                <div>
+                    <div class="heading d-flex justify-content-between">
+                        <h5 class="fw-bold">Popular artists</h5>
+                        <span class="fw-bold">Show all</span>
+                    </div>
+                    <div class="container-fluid mt-3 ">
+                        <div class="row flex-nowrap overflow-auto scrollable-content">
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                   <div class="song-img">
+                                        <img src="https://lastfm.freetls.fastly.net/i/u/ar0/8ef5a2aec8cce82aa28488dbf2a0dbe7.jpg"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                             <img id="play-img" src="./images/play-button.png" alt="">
+                                   </div>
+                                    <h5 class="card-title mt-2">Pritam</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
+                                   
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                   <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5eb59303d54ce789210e745e1a9"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                   </div>
+                                    <h5 class="card-title mt-2">Shreya Ghoshal</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
                                     
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-1 next-songs" style="margin-left: 100px;">
-                            <div class="card bg-transparent text-light " style="width: 18rem;">
-                                <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8" class="card-img-top rounded-3 song-img" style="width: 175px;" alt="...">
-                                <div class="song-body mt-2" >
-                                    <h5 class="card-title" style="font-size: 15px;">Dhun(From "Saiyaara")</h5>
-                                    <p class="card-text" style="font-size: 13px;color: rgb(171, 171, 171);">Mithun,Arijith Singh</p>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                   <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                              <img id="play-img" src="./images/play-button.png" alt="">
+                                   </div>
+                                    <h5 class="card-title mt-2">A.R Rahman</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
+                                  
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                  <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                  </div>
+                                    <h5 class="card-title mt-2">Arijit Singh</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
                                     
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-1" style="margin-left: 100px;">
-                            <div class="card bg-transparent text-light " style="width: 18rem;">
-                                <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8" class="card-img-top rounded-3 song-img" style="width: 175px;" alt="...">
-                                <div class="song-body mt-2" >
-                                    <h5 class="card-title" style="font-size: 15px;">Dhun(From "Saiyaara")</h5>
-                                    <p class="card-text" style="font-size: 13px;color: rgb(171, 171, 171);">Mithun,Arijith Singh</p>
-                                     
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                   <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebbb4064bef3a825344d5eb79e"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                               <img id="play-img" src="./images/play-button.png" alt="">
+                                   </div>
+                                    <h5 class="card-title mt-2">Sachin Jigar</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
+                                 
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-1" style="margin-left: 100px;">
-                            <div class="card bg-transparent text-light " style="width: 18rem;">
-                                <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8" class="card-img-top rounded-3 song-img" style="width: 175px;" alt="...">
-                                <div class="song-body mt-2" >
-                                    <h5 class="card-title" style="font-size: 15px;">Dhun(From "Saiyaara")</h5>
-                                    <p class="card-text" style="font-size: 13px;color: rgb(171, 171, 171);">Mithun,Arijith Singh</p>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                    <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5eb852737800de564b2c0efe165"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                    </div>
+                                    <h5 class="card-title mt-2">Jasleen Royal</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
                                     
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-1" style="margin-left: 100px;">
-                            <div class="card bg-transparent text-light " style="width: 18rem;">
-                                <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8" class="card-img-top rounded-3" style="width: 175px;" alt="...">
-                                <div class="song-body mt-2" >
-                                    <h5 class="card-title" style="font-size: 15px;">Dhun(From "Saiyaara")</h5>
-                                    <p class="card-text" style="font-size: 13px;color: rgb(171, 171, 171);">Mithun,Arijith Singh</p>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                    <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebe34fad78221a2cb31da57946"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                    </div>
+                                    <h5 class="card-title mt-2">Sachet Tandon</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
                                     
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-1" style="margin-left: 100px;">
-                            <div class="card bg-transparent text-light " style="width: 18rem;">
-                                <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8" class="card-img-top rounded-3" style="width: 175px;" alt="...">
-                                <div class="song-body mt-2" >
-                                    <h5 class="card-title" style="font-size: 15px;">Dhun(From "Saiyaara")</h5>
-                                    <p class="card-text" style="font-size: 13px;color: rgb(171, 171, 171);">Mithun,Arijith Singh</p>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                  <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                  </div>
+                                    <h5 class="card-title mt-2">Atif Aslam</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
                                     
+
                                 </div>
                             </div>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                  <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5eb8de0e6e7e55d7773931ab7f4"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                  </div>
+                                    <h5 class="card-title mt-2">Udit Narayan</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex " style="width: 236px;">
+                                <div class="card card-body bg-transparent flex-fill mb-3">
+                                 <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f"
+                                            class="card-img-top rounded-circle object-fit-cover" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                            <img id="play-img" src="./images/play-button.png" alt="">
+                                 </div>
+                                    <h5 class="card-title mt-2">Yo Yo Honey Singh</h5>
+                                    <p class="card-text fw-semibold">Artist</p>
+                                    
+
+                                </div>
+                            </div>
+
                         </div>
-                        
-                   
+                    </div>
+                </div>
+
+                <!-- Popular Albums and singles -->
+                <div>
+                    <div class="heading d-flex justify-content-between">
+                        <h5 class="fw-bold">Popular albums and singles</h5>
+                        <span class="fw-bold">Show all</span>
+                    </div>
+                </div>
+
+                <div class="container-fluid mt-3 ">
+                    <div class="row flex-nowrap overflow-auto scrollable-content">
+                        <div class="col-md-4  d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273781faf59a3cb980fe3b493f8"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                    <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+
+                                <h5 class="card-title mt-2">Dhun(from "Saiyaara")</h5>
+                                <p class="card-text fw-semibold">Mithun,Arijith Singh</p>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class=" col-md-4  d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d00001e024e84dbc51038df1a3b143d90"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Jhol - Acoustic</h5>
+                                <p class="card-text fw-semibold">Maanu,Annural Khalid,Abdullah Siddiqui</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273bd7e1592d75a9ad8d211debd"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Sirra</h5>
+                                <p class="card-text fw-semibold">Guru Randhawa,Kiran Bajwa,Rony Ajnali</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2730a47bbe7141fdfe0eb2cdba7"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Sahiba</h5>
+                                <p class="card-text fw-semibold">Aditya Rikhari</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-5">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273f78ef2cf0e69e27c41bbe127"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Together</h5>
+                                <p class="card-text fw-semibold">Shubh</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d00001e02dfc5ea836092ec71ca7a5dcb"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Humsafar(from "Saiyaara")</h5>
+                                <p class="card-text fw-semibold">Sachet-Parampara,Sachet Tandon,Parampara...</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <div class="song-img">
+                                        <img src="https://i.scdn.co/image/ab67616d00001e025696d40d519368db56b767dd"
+                                            class="card-img-top rounded-3" alt="..."
+                                            style="width: 175px;height: 175px;">
+                                             <img id="play-img" src="./images/play-button.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title mt-2">Monica(From "Coolie")(Tamil)</h5>
+                                <p class="card-text fw-semibold">Anirudh Ravichander,Sublahshini,Ashal Kolaar,...</p>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27359803e4a4a30dcf55464d882"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Bas Ek Dhadak- From "Dhadak 2"</h5>
+                                <p class="card-text fw-semibold">Shreya Ghoshal,Jubin Nautiyal,Javed-Moshin,...</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273148a06ae24e68c088d8d2954"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">Barbaad(From "Saiyaara")</h5>
+                                <p class="card-text fw-semibold">The Rish,Jubin Nautiyal</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex " style="width: 236px;">
+                            <div class="card card-body bg-transparent flex-fill mb-3">
+                                <div class="song-img">
+                                    <img src="https://i1.sndcdn.com/artworks-44YcDMuHx3L8ZGxt-op9xcQ-t500x500.png"
+                                        class="card-img-top rounded-3" alt="..." style="width: 175px;height: 175px;">
+                                         <img id="play-img" src="./images/play-button.png" alt="">
+                                </div>
+                                <h5 class="card-title mt-2">PAIGAAM</h5>
+                                <p class="card-text fw-semibold">Amrinder Gill,Armaan Gill,Arnaaz Gill</p>
+                               
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -26,6 +26,10 @@
 
 }
 
+.home-icon:hover {
+    background-color: rgba(81, 81, 81, 0.634);
+}
+
 
 .link:hover {
     transform: scale(1.04);
@@ -145,7 +149,7 @@
 }
 
 .right-content {
-    background-color: rgb(24, 24, 24);
+    background-image: linear-gradient(to bottom, rgb(39, 39, 39), black, rgb(26, 26, 26));
     border-radius: 5px;
     height: 80vh;
     flex-grow: 1;
@@ -156,19 +160,71 @@
     display: none;
 }
 
-.heading span{
+
+.heading h5 {
+    font-size: 22px;
+}
+
+.heading span {
     color: rgb(171, 171, 171);
     font-size: 13px;
 }
 
-.scrollable-content{
-    flex-grow: 1;
-    overflow-x: auto;
+.card-title {
+    font-size: 15px;
 }
+
+.card-text {
+    font-size: 13px;
+    color: rgb(171, 171, 171);
+}
+
+
+.song-img {
+    position: relative;
+
+}
+
+
+
+.card:hover #play-img {
+    
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+#play-img {
+    /* Initial "off-screen" state */
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    bottom: 5px; 
+    right: -10px; 
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform 0.4s ease-out, opacity 0.5s ease-out;
+
+   
+}
+
+
+.card-body {
+    background-color: transparent;
+}
+
+.card-body:hover {
+    background-color: rgba(34, 34, 34, 0.816) !important;
+}
+
+.card-title:hover,
+.card-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 .scrollable-content::-webkit-scrollbar {
     display: none;
-     scroll-behavior: smooth;
 }
 
 
@@ -195,22 +251,24 @@
         display: none;
     }
 
-    .right-content{
+    .right-content {
         width: 20vh;
-        background-color: transparent;
+        background-color: black;
     }
-    .heading span{
+
+    .heading span {
         display: none;
     }
 
-    .card{
+    .card {
         width: 9rem;
     }
 
-    .song-img{
+    .song-img {
         width: 50px;
     }
-    .next-songs{
+
+    .next-songs {
         margin-left: 5px;
     }
 
