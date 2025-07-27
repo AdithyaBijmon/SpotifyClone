@@ -30,6 +30,10 @@
     background-color: rgba(81, 81, 81, 0.634);
 }
 
+.link button {
+    font-size: 14px;
+}
+
 
 .link:hover {
     transform: scale(1.04);
@@ -122,6 +126,10 @@
 
 }
 
+.body-content {
+    height: 91vh;
+}
+
 .footer-ul ul {
     font-size: 10px;
     list-style: none;
@@ -188,7 +196,7 @@
 
 
 .card:hover #play-img {
-    
+
     transform: translate(0, 0);
     opacity: 1;
 }
@@ -198,13 +206,13 @@
     position: absolute;
     width: 100px;
     height: 60px;
-    bottom: 5px; 
-    right: -10px; 
-    transform: translateY(20px);
+    bottom: 5px;
+    right: -10px;
+    transform: translateY(10px);
     opacity: 0;
-    transition: transform 0.4s ease-out, opacity 0.5s ease-out;
+    transition: transform 0.4s ease-out, opacity 0.2s ease-out;
 
-   
+
 }
 
 
@@ -227,6 +235,27 @@
     display: none;
 }
 
+.foot-content a {
+    color: rgb(154, 154, 154);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.foot-content a:hover {
+    text-decoration: underline;
+}
+
+.preview {
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(175, 43, 149), rgb(59, 151, 218));
+}
+
+.pre-content p {
+    font-size: 14px;
+}
 
 @media(max-width:768px) {
     #app {
@@ -253,7 +282,7 @@
 
     .right-content {
         width: 20vh;
-        background-color: black;
+        background-image: linear-gradient(to bottom, black, black);
     }
 
     .heading span {
@@ -270,6 +299,33 @@
 
     .next-songs {
         margin-left: 5px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .preview {
+        display: none;
+    }
+
+    .bottom-nav {
+        display: flex;
+        height: 10vh;
+        width: 100%;
+        background-color: rgb(2, 2, 2);
+        color: rgb(154, 154, 154);
+    }
+    .bottom-nav .nav-item:hover{
+        color: white;
+    } 
+    .bottom-nav p{
+        font-size: 12px;
+        
+    }
+
+    .body-content {
+        height: 90vh;
     }
 
 }
